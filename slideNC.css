@@ -1,0 +1,282 @@
+
+.ndslide ul {
+    position: relative;
+    list-style: none;
+}
+.ndslide ul li {
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    transform-origin:  0 0;
+}
+.ndslide ul li.active {opacity: 1;}
+
+
+
+
+            /* HIEU-ỨNG */
+ /* .ndslide ul li.bienMatKhiNext{
+    animation: ani1 1s forwards;
+}
+@keyframes ani1{
+    0%{transform: scale(1);opacity: 1;}
+    100%{transform: scale(1.5);opacity: 0;}
+}
+.ndslide ul li.diVaoKhiNext{
+    animation: ani2 2s forwards;
+}
+@keyframes ani2{
+    0%{transform: scale(0.5);opacity: 0;}
+    100%{transform: scale(1);opacity: 1;}
+}
+    /* CLASS CHO NUT PRE  
+.ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s forwards;}
+@keyframes ani2_nguoc{
+    0%{transform: scale(1);opacity: 1;}
+    100%{transform: scale(0.5);opacity: 0;}
+}
+.ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s forwards;}
+@keyframes ani1_nguoc{
+    0%{transform: scale(1.5);opacity: 0;}
+    100%{ transform: scale(1);opacity: 1;}
+} */
+                /* HET HIEU ỨNG- 1 */
+/* ----------------------------------------------------------------- */
+            /*HIEU ỨNG- 2 (PRESS AWAY) */
+    /* .ndslide ul li.bienMatKhiNext{
+        animation: ani1 1s cubic-bezier(.94,-0.04,1,.93) forwards;
+    }
+    @keyframes ani1{
+        0%{transform: translateX(0);opacity: 1;}
+        100%{transform: translateX(100%);opacity: 0;}
+    }
+    .ndslide ul li.diVaoKhiNext{
+        animation: ani2 1s cubic-bezier(.94,-0.04,1,.93) forwards;
+    }
+    @keyframes ani2{
+        0%{transform: translateX(-100%);opacity: 0;}
+        100%{transform: translateX(0);opacity: 1;}
+    }
+        /* CLASS CHO NUT PRE  
+    .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s cubic-bezier(.29,-0.29,1,.26) forwards;}
+    @keyframes ani2_nguoc{
+        0%{transform: translateX(0);opacity: 1;}
+        100%{transform: translateX(-100%);opacity: 0;}
+    }
+    .ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s cubic-bezier(.29,-0.29,1,.26) forwards;}
+    @keyframes ani1_nguoc{
+        0%{transform: translateX(100%);opacity: 0;}
+        100%{transform: translateX(0%);opacity: 1;}
+    } */
+            /* HET HIEU ỨNG- 2 */
+ /* ------------------------------------------------------------- */
+            /* HIEU ỨNG - 3 (APPLE)  */
+    /* .ndslide ul li.bienMatKhiNext{animation: ani1 1s ease-in-out forwards; transition: 0.4s;}
+    @keyframes ani1{
+        0%{transform: translateX(0);opacity: 1;}
+        100%{transform: scale(0.5) translateX(-100%) ;opacity: 0;}
+    }
+    .ndslide ul li.diVaoKhiNext{
+        animation: ani2 1s ease-in-out  forwards;
+        transition: 0.4s;
+    }
+    @keyframes ani2{
+        0%{transform: translateX(100%);opacity: 0;}
+        100%{transform: translateX(0) scale(1.01);opacity: 1;}
+    }
+        /* CLASS CHO NUT PRE  
+    .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s ease-in-out forwards;}
+    @keyframes ani2_nguoc{
+        0%{transform: translateX(0);opacity: 1;}
+        100%{transform: scale(0.5) translateX(100%);opacity: 0;}
+    }
+    .ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s ease-in-out forwards;}
+    @keyframes ani1_nguoc{
+        0%{transform: translateX(-100%);opacity: 0;}
+        100%{transform: translateX(0%) scale(1.01);opacity: 1;}
+    } */
+            /* HET HIEU ỨNG- 3 */
+/* ------------------------------------------------------------------ */
+            /* HIEU UNG 5 (FORTUNE WHEEL) */
+            /* .ndslide ul li.bienMatKhiNext{animation: ani1 1s ease-in-out forwards; transition: 0.4s;}
+        @keyframes ani1{
+            0%{transform: translateX(0) scale(0.9);opacity: 1;}
+            100%{transform: translateX(100%) scale(0.6);opacity: 0.6;}
+        }
+        .ndslide ul li.diVaoKhiNext{
+            animation: ani2 1s ease-in-out  forwards;
+            transition: 0.4s;
+        }
+        @keyframes ani2{
+            0%{transform: translateX(-100%) rotateY(-60deg) ;opacity: 0.6;}
+            100%{transform: translateX(0) rotateY(0) ;opacity: 1;}
+        }
+            /* CLASS CHO NUT PRE  
+        .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s ease-in-out forwards;}
+        @keyframes ani2_nguoc{
+            0%{transform: translateX(0) scale(0.9);opacity: 1;}
+            100%{transform:translateX(-100%) scale(0.5);opacity: 0;}
+        }
+        .ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s ease-in-out forwards;}
+        @keyframes ani1_nguoc{
+            0%{transform: translateX(100%) rotateY(70deg);opacity: 0;}
+            100%{transform: translateX(0%) rotateY(0);opacity: 1;}
+        } */
+            /* HET HIEU UNG 5 */
+/* ------------------------------------------------------------- */
+           /* HIEU UNG 6 (SWIPE) */
+           /* .ndslide ul li.bienMatKhiNext{animation: ani1 1s cubic-bezier(.25,.02,1,1.35) forwards; transition: 0.4s;}
+           @keyframes ani1{
+               0%{ opacity: 1; z-index: 5;}
+               100%{height: 0; opacity: 0; z-index: 5;}
+           }
+           .ndslide ul li.diVaoKhiNext{
+               animation: ani2 1s cubic-bezier(.25,.02,1,1.35) forwards;
+               transition: 0.4s;
+           }
+           @keyframes ani2{
+               0%{height: 100%; opacity: 1;}
+               100%{height: 100%; opacity: 1;}
+           }
+               /* CLASS CHO NUT PRE  
+           .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s cubic-bezier(.25,.02,1,1.35) forwards;}
+           @keyframes ani2_nguoc{
+               0%{opacity: 1;}
+               100%{opacity: 1;}
+           }
+           .ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s cubic-bezier(.25,.02,1,1.35) forwards;}
+           @keyframes ani1_nguoc{
+               0%{height: 0%;opacity: 0; z-index: 6;}
+               100%{height: 100%;opacity: 1; z-index: 6;}
+           } */
+               /* HET HIEU UNG 5 */
+/* ---------------------------------------------------------------- */             
+                /* HET HIEU UNG 6 (PUSH REVEAL)*/
+            /* .ndslide ul li.bienMatKhiNext{animation: ani1 2s ease forwards;}
+            @keyframes ani1{
+                0%{ transform: translateY(0); opacity: 1; z-index: 7;}
+                100%{transform: translateY(100%); opacity: 0; z-index: 7;}
+            }
+            .ndslide ul li.diVaoKhiNext{
+                animation: ani2 2s ease forwards;
+            }
+            @keyframes ani2{
+                0%{ transform: translateY(-80%); opacity: 1; z-index: 7;}
+                100%{transform: translateY(0%); opacity: 1; z-index: 7;}
+            }
+                /* CLASS CHO NUT PRE  
+            .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s ease forwards;}
+            @keyframes ani2_nguoc{
+                0%{opacity: 1;}
+                100%{opacity: 1;}
+            }
+            .ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s ease forwards;}
+            @keyframes ani1_nguoc{
+                0%{height: 0%;opacity: 0; z-index: 6;}
+                100%{height: 100%;opacity: 1; z-index: 6;}
+            } */
+                /* HET HIEU UNG 6 */
+/* ------------------------------------------------ */
+                /* HIEU UNG 7 (SNAP IN)  */
+            /* .ndslide ul li.bienMatKhiNext{animation: ani1 1s linear forwards;}
+            @keyframes ani1{
+                0%{ transform: translateX(0%); opacity: 1;}
+                100%{transform: translateX(-10%); opacity: 0.8; }
+            }
+            .ndslide ul li.diVaoKhiNext{
+                animation: ani2 0.3s linear forwards;
+                animation-delay: 0.5s;
+            }
+            @keyframes ani2{
+                0%{ transform: translateX(100%); opacity:0; z-index: 10;}
+                100%{transform: translateX(0%); opacity: 1; z-index: 10;}
+            }
+                /* CLASS CHO NUT PRE  
+            .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s ease forwards;}
+            @keyframes ani2_nguoc{
+                0%{ transform: translateX(0%); opacity: 1;}
+                100%{transform: translateX(10%); opacity: 0.8;}
+            }
+            .ndslide ul li.diVaoKhiPre{
+                animation: ani1_nguoc 0.3s ease forwards;
+                animation-delay: 0.5s;
+            }
+            @keyframes ani1_nguoc{
+                0%{ transform: translateX(-100%); opacity:0;z-index: 10;}
+                100%{transform: translateX(0%); opacity: 1; z-index: 10;}
+            } */
+                /* HET HIEU UNG 7  */
+/* ----------------------------------------------------------------- */
+            /*HIEU ỨNG- 8 (LET ME IN) */
+    .ndslide ul li.bienMatKhiNext{
+        animation: ani1 1s ease forwards;
+    }
+    @keyframes ani1{
+        0%{transform: rotateY(0deg);opacity: 1;}
+        100%{transform: rotateY(25deg);opacity: 0;}
+    }
+    .ndslide ul li.diVaoKhiNext{
+        animation: ani2 1s ease forwards;
+        animation-delay: 0.3s;
+    }
+    @keyframes ani2{
+        0%{transform: translateX(100%);opacity: 0;}
+        100%{transform: translateX(0);opacity: 1;}
+    }
+        /* CLASS CHO NUT PRE  */
+    .ndslide ul li.bienMatKhiPre{animation: ani2_nguoc 1s ease forwards;}
+    @keyframes ani2_nguoc{
+        
+        0%{transform-origin: 100% 100%; transform: rotateY(0deg);opacity: 1;}
+        100%{transform-origin: 100% 100%; transform: rotateY(-25deg);opacity: 0;}
+    }
+    .ndslide ul li.diVaoKhiPre{animation: ani1_nguoc 1s ease forwards;
+        animation-delay: 0.3s;
+    }
+    @keyframes ani1_nguoc{
+        0%{transform: translateX(-100%);opacity: 0; z-index: 10;}
+        100%{transform: translateX(0%);opacity: 1; z-index: 10;}
+    }
+            /* HET HIEU ỨNG- 8 */
+ /* ------------------------------------------------------------- */
+
+
+
+.ndslide {
+    position: absolute;top: 0;  
+}
+.nutslide {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;z-index: 100;
+ 
+}
+
+.nutslide b {
+    color: wheat;
+    font-size: 80px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nutslide b:hover {color: lightblue;}
+div#slider {
+    position: relative;
+    overflow: hidden;
+    background: black;
+    perspective: 1200px;
+}
+html, body,div#slider, .ndslide, .ndslide ul, .ndslide ul li {
+    width: 100%;
+    height: 100%;
+}
+/* NUTSLIDE */
+*{margin: 0; padding: 0;}
